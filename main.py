@@ -7,7 +7,7 @@ import os
 clear = lambda: os.system('cls')
 # Lê o arquivo login.txt e transforma cada linha de texto
 # em elementos de uma lista pw, onde o 1º elemento é o nome
-# de usuário e o 2º elemento é a senha, adicioando às variáveis
+# de usuário e o 2º elemento é a senha, adicionando às variáveis
 # username e password, respectivamente.
 f = open(r"C:\..\login.txt", 'r', encoding='utf8')
 pw = f.readlines()
